@@ -1,0 +1,83 @@
+body {
+    display: grid;
+    grid-template-areas:
+      'nav nav nav nav nav nav'
+      'rticle article article article article aside';
+    gap: 10px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  nav {
+      grid-area: nav;
+  }
+  
+  article {
+      grid-area: article;
+      clear: left;
+  }
+
+  article h1 {
+
+  }
+
+  h1.jumbo {
+
+  }
+
+  h1#key-visual {
+    border: 3px solid white;
+  }
+
+  h2 {
+    color: lightslategray;
+  }
+  
+  aside {
+      grid-area: aside;
+      padding: 20px;
+      font-size: .8rem
+  }
+  
+  nav ol#menu li {
+      display: block;
+      float: left;
+      background-color: lightslategray;
+  
+      font-weight: bold;
+      color: white;
+      border: 3px solid darkgrey;
+      margin: 10px;
+      padding: 10px 20px;
+      text-align: left;
+  }
+
+  nav ol#menu li:hover {
+    background-color: grey;
+    }
+  
+  
+  table {
+      margin: 0;
+      border-collapse: collapse;
+  }
+  
+  td {
+    padding: 20px;
+    border: 1px dotted grey;
+
+  }
+
+  tr:first-child td:first-child {
+    background: #eee;
+  }
+
+
+  b {
+      display: block;
+  }
+  
+  
+  
+  
